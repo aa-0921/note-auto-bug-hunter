@@ -8,7 +8,7 @@ import { runWithCore } from '@aa-0921/note-auto-core';
     await core.runUnfollowNonFollowbackUsers({
       background: wantsBackground,
       username: null, // nullの場合は現在のユーザー
-      maxUnfollows: 2, // 一回に100件まで
+      maxUnfollows: 2, // 一回に2件まで
     });
     console.log('フォロー解除処理が完了しました');
   });
