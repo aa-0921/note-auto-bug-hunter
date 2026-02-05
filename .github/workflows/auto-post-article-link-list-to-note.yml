@@ -1,7 +1,7 @@
 name: Auto Post Article Link List To Note
 
 on:
-  schedule:
+  # schedule:
     # 毎日10:30, 12:30, 19:30（JST）に実行
     # JST = UTC + 9時間
     - cron: '30 3 * * *'
