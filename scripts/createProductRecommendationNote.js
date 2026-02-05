@@ -7,7 +7,7 @@ import { affiliateLinks, affiliateConfig } from './affiliateConfig.js';
 (async () => {
   await runWithCore(async ({ core, wantsBackground }) => {
     // リポジトリ固有の設定
-    const title = '🛍️💖 買ってよかったおすすめ商品まとめ | Amazon | おすすめ | 買ってよかった | お得 | フォロバ100 | フォロバ';
+    const title = '🛍️💖 買ってよかったおすすめ商品まとめ | アマゾン | Amazon | おすすめ | 買ってよかった | お得 | フォロバ100 | フォロバ';
 
     // 導入文
     const intro = [
@@ -33,7 +33,7 @@ import { affiliateLinks, affiliateConfig } from './affiliateConfig.js';
       '',
       '※ Amazon のアソシエイトとして、「 🏅恋愛・人間関係カウンセラーRisa🏅 」は適格販売により収入を得ています。',
       '',
-      '#おすすめ商品 #買ってよかった #Amazon #健康 #美容 #生活 #PR',
+      '#おすすめ商品 #買ってよかった #アマゾン #Amazon #健康 #美容 #生活 #PR',
     ].join('\n');
 
     // コアライブラリのメソッドを呼び出し

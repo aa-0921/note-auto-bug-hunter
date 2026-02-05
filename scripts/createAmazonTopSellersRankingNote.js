@@ -8,10 +8,10 @@ import { amazonTopSellersRankingLinks } from './affiliateConfig.js';
   await runWithCore(async ({ core, wantsBackground }) => {
     // タイトル候補からランダムに選択
     const titleCandidates = [
-      '✨ Amazon売れ筋ランキング　カテゴリ別リンクまとめ | Amazon | ランキング | おすすめ | お得 | 買ってよかった | フォロバ100 | フォロバ',
-      '💕 Amazon売れ筋ランキング　人気商品をサクッとチェック | Amazon | ランキング | おすすめ | お得 | 買ってよかった | フォロバ100 | フォロバ',
-      '🉐 Amazon売れ筋ランキング　失敗しない商品選び | Amazon | ランキング | おすすめ | お得 | 買ってよかった | フォロバ100 | フォロバ',
-      '💡 Amazon売れ筋ランキング　人気商品で時短リサーチ | Amazon | ランキング | おすすめ | お得 | 買ってよかった | フォロバ100 | フォロバ',
+      '✨ Amazon売れ筋ランキング　カテゴリ別リンクまとめ | アマゾン | Amazon | ランキング | おすすめ | お得 | 買ってよかった | フォロバ100 | フォロバ',
+      '💕 Amazon売れ筋ランキング　人気商品をサクッとチェック | アマゾン | Amazon | ランキング | おすすめ | お得 | 買ってよかった | フォロバ100 | フォロバ',
+      '🉐 Amazon売れ筋ランキング　失敗しない商品選び | アマゾン | Amazon | ランキング | おすすめ | お得 | 買ってよかった | フォロバ100 | フォロバ',
+      '💡 Amazon売れ筋ランキング　人気商品で時短リサーチ | アマゾン | Amazon | ランキング | おすすめ | お得 | 買ってよかった | フォロバ100 | フォロバ',
     ];
     const title =
       titleCandidates[Math.floor(Math.random() * titleCandidates.length)];
@@ -44,7 +44,7 @@ import { amazonTopSellersRankingLinks } from './affiliateConfig.js';
       '',
       '※ Amazon のアソシエイトとして、「 🏅恋愛・人間関係カウンセラーRisa🏅 」は適格販売により収入を得ています。',
       '',
-      '#Amazonランキング #Amazon売れ筋ランキング #人気商品 #おすすめ #ショッピング #PR',
+      '#Amazonランキング #Amazon売れ筋ランキング #アマゾン #Amazon #人気商品 #おすすめ #ショッピング #PR',
     ].join('\n');
 
     // コアライブラリのメソッドを呼び出し（Amazonランキング専用メソッド）
