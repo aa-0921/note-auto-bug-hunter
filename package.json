@@ -19,7 +19,8 @@
     "noteAutoDraftAndSheetUpdate": "node scripts/noteAutoDraftAndSheetUpdate.js",
     "likeAsGuestByAccounts": "node scripts/likeAsGuestByAccounts.js",
     "createAmazonTopSellersRankingNote": "node scripts/createAmazonTopSellersRankingNote.js",
-    "twitterPostAmazonRanking": "node scripts/twitterPostAmazonRanking.js"
+    "twitterPostAmazonRanking": "node scripts/twitterPostAmazonRanking.js",
+    "postArticleLinkListToNote": "node scripts/postArticleLinkListToNote.js"
   },
   "keywords": [
     "note",
